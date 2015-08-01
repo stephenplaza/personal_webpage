@@ -372,13 +372,14 @@ var Publications = React.createClass({
             }
         } 
         publications.sort(sortYear);
-              
+        var tcount = 0; 
+        //Erd{'\u00F6'}s Number</a> is 3 (through Professor John Hayes)</h4>
         return (
             <div className="container">
                 <div className="row">
                 <h2>Publications and Manuscripts</h2>
                 <h4>My <a href="http://wwwp.oakland.edu/enp/" target="_blank">
-                Erd{'\u00F6'}s Number</a> is 3 (through Professor John Hayes)</h4>
+                Erdos Number</a> is 3 (through Professor John Hayes)</h4>
                 <div className="btn-group" role="group" aria-label="pubsel">
                 <button type="button" className="btn btn-default" onClick={this.getAll}>All</button>
                 <button type="button" className="btn btn-default" onClick={this.getBest}>Highlights</button>
@@ -392,10 +393,11 @@ var Publications = React.createClass({
                     var pubstr = val.authors + ", <i>" + val.venue + "</i>, " + val.year + ".";
                     var itemstart = <li className="list-group-item">;
                     var itemfinish = </li>;
-                    
+                    tcount += 1;
+
                     if (val.link != "") {
                         return (
-                            <a className="list-group-item" href={val.link} target="_blank">
+                            <a key={"pub-"+String(tcount)} className="list-group-item" href={val.link} target="_blank">
                                 <h4 className="list-group-item-heading">
                                 {val.title}
                                 </h4>
@@ -408,7 +410,7 @@ var Publications = React.createClass({
                         );
                     } else {
                         return (
-                            <li className="list-group-item">
+                            <li key={"pub-"+String(tcount)} className="list-group-item">
                                 <h4 className="list-group-item-heading">
                                 {val.title}
                                 </h4>

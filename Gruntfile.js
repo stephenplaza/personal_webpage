@@ -117,7 +117,6 @@ module.exports = function(grunt) {
                         src: '*.css',
                         dest: 'build/css'
                     }
-
                 ]
         },
         dist: {
@@ -130,7 +129,39 @@ module.exports = function(grunt) {
                     },
                     {
                         src: 'src/application.html',
-                        dest: 'dist/application.html'
+                        dest: 'dist/index.html'
+                    },
+                    {
+                        src: 'src/vendor/github-activity-0.1.1.min.js',
+                        dest: 'dist/js/github-activity-0.1.1.min.js',
+                    },
+                    {
+                        src: 'src/vendor/mustache.min.js',
+                        dest: 'dist/js/mustache.min.js',
+                    },
+                    {
+                        expand: "true",
+                        cwd: '.',
+                        src: 'images/*',
+                        dest: 'dist/'
+                    },
+                    {
+                        expand: "true",
+                        cwd: '.',
+                        src: 'res/*',
+                        dest: 'dist/'
+                    },
+                    {
+                        expand: "true",
+                        cwd: 'src/vendor/',
+                        src: 'octicons/*',
+                        dest: 'dist/'
+                    },
+                    {        
+                        expand: "true",
+                        cwd: 'node_modules/github-activity/dist',
+                        src: '*.css',
+                        dest: 'dist/css'
                     }
                 ]
         },

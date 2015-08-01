@@ -16,7 +16,7 @@ var Jumbotron = React.createClass({
                             <h3>Stephen Plaza, PhD, PMP</h3>
                         </div>
                         <div className="row">
-                            <img src="images/profile.jpeg" width="100%" style={{maxWidth: "300px"}} />
+                            <img src="images/profile.jpg" width="100%" style={{maxWidth: "300px"}} />
                         </div>
                     </div>
                     <div className="col-md-6" style={{marginTop: "2em"}}>
