@@ -35,12 +35,14 @@ var NavBar = React.createClass({
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
             <li><Link to="home">Home <span className="sr-only">(current)</span></Link></li>
-            <li><Link to="bio">Professional Bio</Link></li>
-            <li><Link to="software">Software Projects</Link></li>
+            <li><Link to="bio">Bio</Link></li>
+            <li><Link to="software">Software</Link></li>
             <li><Link to="publications">Publications</Link></li>
             <li><a target="_blank" href="res/resume.pdf">Resume<span className="glyphicon glyphicon-download-alt" style={{marginLeft: "1em"}} aria-hidden="true"></span></a></li>
             </ul>
-            
+            <ul className="nav navbar-brand navbar-right">
+                   <li>plaza.stephen@gmail.com</li>
+            </ul> 
 
             </div>
             </div>
