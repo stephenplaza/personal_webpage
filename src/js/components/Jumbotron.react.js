@@ -23,7 +23,7 @@ var Jumbotron = React.createClass({
                             </div>
 
                             <div className="col-md-8">
-                            <p className="text-left" style={{marginTop: "2em"}}>This is Stephen Plaza's personal website.  He is
+                            <p className="text-left smaller" style={{marginTop: "2em"}}>This is Stephen Plaza's personal website.  He is
                             a scientist, computer engineer, and project manager.
                             He currently works at Janelia Research Campus and 
                             enjoys the challenges involved with interdisciplinary

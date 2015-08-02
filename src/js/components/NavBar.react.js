@@ -17,6 +17,11 @@ var MenuItem = require('react-bootstrap/lib/MenuItem');
 var React = require('react');
 
 var NavBar = React.createClass({
+    componentDidMount: function () {
+        $('.navbar-collapse li').click(function(){
+                $(".navbar-collapse").collapse('hide');
+        });
+    },
     render: function () {
         return (
             <nav className="navbar  navbar-inverse">
