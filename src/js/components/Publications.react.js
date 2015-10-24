@@ -238,6 +238,24 @@ var PubList = [
         highlight: false
     },
     {
+        title: "Synaptic circuits and their variations within different columns in the visual system of Drosophila",
+        authors: "Shin-ya Takemura, C Shan Xu, Zhiyuan Lu, Patricia K Rivlin, Toufiq Parag, Donald J Olbris, Stephen Plaza, Ting Zhao, William T Katz, Lowell Umayam, Charlotte Weaver, Harald F Hess, Jane Anne Horne, Juan Nunez-Iglesias, Roxanne Aniceto, Lei-Ann Chang, Shirley Lauchie, Ashley Nasca, Omotara Ogundeyi, Christopher Sigmund, Satoko Takemura, Julie Tran, Carlie Langille, Kelsey Le Lacheur, Sari McLin, Aya Shinomiya, Dmitri B Chklovskii, Ian A Meinertzhagen, Louis K Scheffer",
+        venue: "Proceedings of the National Academy of Sciences",
+        year: "2015",
+        type: "journal",
+        link: "http://www.pnas.org/content/early/2015/10/15/1509820112.short",
+        highlight: true
+    },
+    {
+        title: "Large-scale EM Analysis of the Drosophila Antennal Lobe with Automatically Computed Synapse Point Clouds",
+        authors: "Ting Zhao, Shin-ya Takemura, Gary B. Huang, Jane Anne Horne, William T. Katz, Kazunori Shinomiya, Louis K. Scheffer, Ian A. Meinertzhagen, Patricia K. Rivlin, Stephen M. Plaza",
+        venue: "ArXiV",
+        year: "2015",
+        type: "manuscript",
+        link: "http://arxiv.org/abs/1508.06232",
+        highlight: false 
+    }, 
+    {
         title: "A Context-Aware Delayed Agglomeration Framework for Electron Microscopy Segmentation",
         authors: "Toufiq Parag, Anirban Chakraborty, Stephen Plaza, Louis Scheffer",
         venue: "PLOS ONE",
