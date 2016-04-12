@@ -4,9 +4,27 @@ var React = require('react');
 
 var PubList = [
     {
+        title: "Fully-automatic synapse prediction and validation on a large data set",
+        authors: "Gary Huang, Louis Scheffer, Stephen Plaza",
+        venue: "arXiv",
+        year: "2016",
+        type: "manuscript",
+        link: "http://arxiv.org/abs/1604.03075",
+        highlight: true
+    }, 
+    {
+        title: "Large-scale electron microscopy image segmentation in Spark",
+        authors: "Stephen Plaza, Stuart Berg",
+        venue: "arXiv",
+        year: "2016",
+        type: "manuscript",
+        link: "http://arxiv.org/abs/1604.00385",
+        highlight: true
+    }, 
+    {
         title: "Focused proofreading: efficiently extracting connectomes from segmented EM images",
         authors: "Stephen Plaza",
-        venue: "ArXiV",
+        venue: "arXiv",
         year: "2014",
         type: "manuscript",
         link: "http://arxiv.org/abs/1409.1199",
@@ -249,7 +267,7 @@ var PubList = [
     {
         title: "Large-scale EM Analysis of the Drosophila Antennal Lobe with Automatically Computed Synapse Point Clouds",
         authors: "Ting Zhao, Shin-ya Takemura, Gary B. Huang, Jane Anne Horne, William T. Katz, Kazunori Shinomiya, Louis K. Scheffer, Ian A. Meinertzhagen, Patricia K. Rivlin, Stephen M. Plaza",
-        venue: "ArXiV",
+        venue: "arXiv",
         year: "2015",
         type: "manuscript",
         link: "http://arxiv.org/abs/1508.06232",
@@ -267,7 +285,7 @@ var PubList = [
     {
         title: "Automatic Neuron Type Identification by Neurite Localization in the Drosophila Medulla",
         authors: "Ting Zhao, Stephen M Plaza",
-        venue: "ArXiV",
+        venue: "arXiv",
         year: "2014",
         type: "manuscript",
         link: "http://arxiv.org/abs/1409.1892",
@@ -276,7 +294,7 @@ var PubList = [
     {
         title: "Annotating Synapses in Large EM Datasets",
         authors: "Stephen M. Plaza, Toufiq Parag, Gary B. Huang, Donald J. Olbris, Mathew A. Saunders, Patricia K. Rivlin",
-        venue: "ArXiV",
+        venue: "arXiv",
         year: "2014",
         type: "manuscript",
         link: "http://arxiv.org/abs/1409.1801",
@@ -285,7 +303,7 @@ var PubList = [
     {
         title: "Identifying Synapses Using Deep and Wide Multiscale Recursive Networks",
         authors: "Gary B. Huang, Stephen Plaza",
-        venue: "ArXiV",
+        venue: "arXiv",
         year: "2014",
         type: "manuscript",
         link: "http://arxiv.org/abs/1409.1789",
