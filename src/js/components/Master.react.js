@@ -3,6 +3,7 @@
 var React = require('react');
 var NavBar = require('./NavBar.react');
 var Bio = require('./Bio.react');
+var Consulting = require('./Consult.react');
 var Software = require('./Software.react');
 var Router        = require('react-router');
 var Route = Router.Route;
@@ -37,6 +38,7 @@ var routes = (
   <Route name="home" path="/" handler={Master}>
     <DefaultRoute handler={Home}/>
     <Route name="bio" path="bio" handler={Bio}/>
+    <Route name="consult" path="consult" handler={Consulting}/>
     <Route name="software" path="software" handler={Software}/>
     <Route name="publications" path="publications" handler={Publications}/>
   </Route>

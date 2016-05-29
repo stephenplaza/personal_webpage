@@ -41,6 +41,7 @@ var NavBar = React.createClass({
             <ul className="nav navbar-nav">
             <li><Link to="home">Home <span className="sr-only">(current)</span></Link></li>
             <li><Link to="bio">Bio</Link></li>
+            <li><Link to="consult">Consulting</Link></li>
             <li><Link to="software">Software</Link></li>
             <li><Link to="publications">Publications</Link></li>
             <li><a target="_blank" href="res/resume.pdf">Resume<span className="glyphicon glyphicon-download-alt" style={{marginLeft: "1em"}} aria-hidden="true"></span></a></li>
